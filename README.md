@@ -66,7 +66,7 @@ Siga os passos abaixo para executar a aplicação em sua máquina local.
 1. **Clone o repositório (opcional):**
 
    ```bash
-   git clone https://github.com/seu-usuario/cotacoes-insight.git
+   git clone https://github.com/Carloseduardo-dev/cotacoes_insight.git
    cd cotacoes-insight
    ```
 
