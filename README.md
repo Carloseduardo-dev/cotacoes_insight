@@ -1,6 +1,6 @@
 # 📈 Cotacoes Insight
 
-Uma aplicação web minimalista construída com Streamlit para análise de cotações de ativos financeiros. O projeto demonstra o uso de um padrão **MapReduce** local para processamento de dados em paralelo, busca de dados em tempo real via API e visualização interativa de gráficos com Plotly.
+Uma aplicação web construída com Streamlit para análise de cotações de ativos financeiros. O projeto demonstra o uso de um padrão **MapReduce** local para processamento de dados em paralelo, busca de dados em tempo real via API e visualização interativa de gráficos com Plotly.
 
 ![Python](https://img.shields.io/badge/Python-3.11+-blue.svg)
 ![Streamlit](https://img.shields.io/badge/Streamlit-1.27+-red.svg)
@@ -12,8 +12,8 @@ Uma aplicação web minimalista construída com Streamlit para análise de cota�
 - [Tecnologias Utilizadas](#-tecnologias-utilizadas)
 - [Estrutura do Projeto](#-estrutura-do-projeto)
 - [Como Executar](#-como-executar)
-  - [Pré-requisitos](#pré-requisitos)
-  - [Instalação e Execução](#instalação-e-execução)
+- [Pré-requisitos](#pré-requisitos)
+- [Instalação e Execução](#instalação-e-execução)
 - [Explicação dos Módulos](#-explicação-dos-módulos)
 
 ## ✨ Funcionalidades
@@ -66,7 +66,7 @@ Siga os passos abaixo para executar a aplicação em sua máquina local.
 1. **Clone o repositório (opcional):**
 
    ```bash
-   git clone https://github.com/seu-usuario/cotacoes-insight.git
+   git clone https://github.com/Carloseduardo-dev/cotacoes_insight.git
    cd cotacoes-insight
    ```
 

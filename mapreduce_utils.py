@@ -94,8 +94,7 @@ def map_reduce_stats(df: pd.DataFrame, metrics=None, moving_average_days: int = 
 
     # Retornos diários (map/reduce)
     returns_series = None
-    # O cálculo de retornos é sequencial e rápido com pandas, não se beneficia do MapReduce aqui.
-    # A implementação anterior era falha pois perdia pontos de dados nas bordas dos chunks.
+
     if any(m in metrics for m in ["returns", "volatility", "cumulative_return"]):
         returns_series = close_series.pct_change().dropna()
 
