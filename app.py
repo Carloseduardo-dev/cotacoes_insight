@@ -167,7 +167,7 @@ def pagina_cotacoes():
             fig_vol.add_trace(go.Bar(x=df.index, y=df["Volume"], name="Volume", marker=dict(color="#10b981")))
             
             fig_vol.update_layout(
-                title="Volume de Negociação",
+                title="gociação",
                 xaxis_title="Data",
                 yaxis_title="Volume",
                 template="plotly_white",
