@@ -3,7 +3,7 @@ from functools import reduce
 import numpy as np
 import pandas as pd
 
-# Inicializar suporte para multiprocessing no Windows
+# Inicializar suporte para multiprocessing
 freeze_support()
 
 # --- Map functions ---
@@ -118,3 +118,4 @@ def map_reduce_stats(df: pd.DataFrame, metrics=None, moving_average_days: int = 
         results[f"ma_{moving_average_days}"] = close_series.rolling(window=moving_average_days).mean()
 
     return results
+
